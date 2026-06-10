@@ -2,7 +2,7 @@
 // BOLÃO PISTOLANDO™ NAFTA EDITION 2026 — Motor de Pontuação
 // ============================================================
 
-const REPO_RAW = 'https://raw.githubusercontent.com/gjrmacedo/bolao2026/refs/heads/main/';
+const REPO_RAW = 'https://raw.githubusercontent.com/ThiagoCZZ/BolaoPistolando2026/refs/heads/main/';
 
 // Palpites só ficam visíveis 10min antes do início OU quando todos já enviaram
 function palpitesVisiveis(jogo, participantesArr) {
