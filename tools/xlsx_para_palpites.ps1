@@ -136,7 +136,7 @@ try {
   $extra  = if ($fExtra) { Read-Sheet $sheetFile[$fExtra] } else { @{} }
 }
 finally {
-  Remove-Item $tmp -Recurse -Force -ErrorAction SilentlyContinue
+  
 }
 
 # ---- Mapa de jogos da fase de grupos (pares de seleções -> id) ----
