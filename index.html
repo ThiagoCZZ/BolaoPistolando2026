@@ -558,7 +558,7 @@ function palpitesVisiveis(jogo) {
   const idStr = String(jogo.id);
   const agora = Date.now();
   // Trava global: nada visível antes do primeiro jogo da Copa (anti-cópia)
-  if (agora < inicioCopa()) return false;
+  //if (agora < inicioCopa()) return false;
   const jogoTime = new Date(jogo.data).getTime();
   if (agora >= jogoTime - 600000) return true;
   if (!Array.isArray(allParticipantes) || allParticipantes.length === 0) return false;
