@@ -23,7 +23,12 @@
     "17" : {  "gols_casa": 3,  "gols_fora": 1},
     "18" : {  "gols_casa": 1,  "gols_fora": 4},
     "19" : {  "gols_casa": 3,  "gols_fora": 0},
-    "20" : {  "gols_casa": 3,  "gols_fora": 1}
+    "20" : {  "gols_casa": 3,  "gols_fora": 1},
+    "21" : {  "gols_casa": 1,  "gols_fora": 1},
+    "22" : {  "gols_casa": 4,  "gols_fora": 2},
+    "23" : {  "gols_casa": 1,  "gols_fora": 0},
+    "24" : {  "gols_casa": 1,  "gols_fora": 3},
+    "25" : {  "gols_casa": 1,  "gols_fora": 1}
   },
   "extras": {
     "melhor_ataque": null,
