@@ -28,7 +28,10 @@
     "22" : {  "gols_casa": 4,  "gols_fora": 2},
     "23" : {  "gols_casa": 1,  "gols_fora": 0},
     "24" : {  "gols_casa": 1,  "gols_fora": 3},
-    "25" : {  "gols_casa": 1,  "gols_fora": 1}
+    "25" : {  "gols_casa": 1,  "gols_fora": 1},
+    "26" : {  "gols_casa": 4,  "gols_fora": 1},
+    "27" : {  "gols_casa": 6,  "gols_fora": 0},
+    "28" : {  "gols_casa": 1,  "gols_fora": 0}
   },
   "extras": {
     "melhor_ataque": null,
