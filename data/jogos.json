@@ -170,7 +170,7 @@
     {"id": 72, "fase": "grupos", "grupo": "K", "data": "2026-06-27T20:30:00-03:00", "casa": "RD Congo",       "fora": "Uzbequistão",       "sede": "Atlanta",          "duplicado": false},
     {"id": 73,  "fase": "16avos", "data": "2026-06-28T16:00:00-03:00", "casa": "África do Sul",  "fora": "Canadá",  "sede": "Los Angeles",    "duplicado": false},
     {"id": 74,  "fase": "16avos", "data": "2026-06-29T17:30:00-03:00", "casa": "Alemanha",  "fora": "3º (ABCDF)", "sede": "Boston",      "duplicado": false},
-    {"id": 75,  "fase": "16avos", "data": "2026-06-29T22:00:00-03:00", "casa": "Holanda",  "fora": "Marrocos",  "sede": "Monterrey",      "duplicado": false},
+    {"id": 75,  "fase": "16avos", "data": "2026-06-29T22:00:00-03:00", "casa": "Países Baixos",  "fora": "Marrocos",  "sede": "Monterrey",      "duplicado": false},
     {"id": 76,  "fase": "16avos", "data": "2026-06-29T14:00:00-03:00", "casa": "Brasil",  "fora": "Japão",  "sede": "Houston",        "duplicado": false},
     {"id": 77,  "fase": "16avos", "data": "2026-06-30T18:00:00-03:00", "casa": "França",  "fora": "3º (CDFGH)", "sede": "Nova York",  "duplicado": false},
     {"id": 78,  "fase": "16avos", "data": "2026-06-30T14:00:00-03:00", "casa": "Costa do Marfim",  "fora": "Noruega",  "sede": "Dallas",         "duplicado": false},
