@@ -2,7 +2,7 @@
 // BOLÃO PISTOLANDO™ NAFTA EDITION 2026 — Motor de Pontuação
 // ============================================================
 
-const REPO_RAW = 'https://raw.githubusercontent.com/ThiagoCZZ/BolaoPistolando2026/refs/heads/main/';
+const REPO_RAW = 'https://raw.githubusercontent.com/gjrmacedo/bolao2026/refs/heads/main/';
 
 // Palpites só ficam visíveis 10min antes do início OU quando todos já enviaram
 function palpitesVisiveis(jogo, participantesArr) {
@@ -71,7 +71,7 @@ function calcularPontosMataM(palpite, resultado, regras) {
     }
   } else {
     // Empate (decidido nos pênaltis)
-    if (rc === rf) {
+    if (pc === pf) {
       // Apostador apostou empate — pontua e DEVE indicar o vencedor dos pênaltis
       if (pc === rc && pf === rf) {
         pts = regras.empate_cravado; tipo = 'empate_cravado';
@@ -87,8 +87,10 @@ function calcularPontosMataM(palpite, resultado, regras) {
           pts += regras.penaltis_erro; // já é negativo no JSON
         }
       }
+    } else if (pc === rc || pf === rf) {
+      // Apostou vitória, resultado foi empate — consolação por gol certo
+      pts = regras.vitoria_gols; tipo = 'gols_parcial';
     }
-    // Apostou vitória mas o jogo terminou empatado → erro (0 pts), sem bônus de pênaltis
   }
 
   return { pts, tipo };
@@ -156,7 +158,7 @@ async function calcularRanking() {
     fetchJSON('data/palpites/index.json'),
   ]);
 
-   const resultadosData = await fetchResultados(dadosJogos.jogos); // busca repo + mescla API
+  const resultadosData = await fetchResultados(dadosJogos.jogos); // busca repo + mescla API
   const anfitriaoBest = resultadosData._anfitriao_melhor_campanha;
   const resultados = resultadosData.resultados || {};
   const resultadosExtras = resultadosData.extras || null;
@@ -241,7 +243,7 @@ async function fetchResultados(meusJogos) {
     fetchJSON('data/resultados.json'),
     fetch('https://worldcup26.ir/get/games').catch(() => null),
   ]);
-
+ 
   // Se a API respondeu, mescla — repositório preservado como base (manuais de mata-mata etc.)
   if (apiResp?.ok) {
     try {
@@ -255,7 +257,7 @@ async function fetchResultados(meusJogos) {
       console.warn('[fetchResultados] Falha ao processar API externa, usando só o repositório.', e);
     }
   }
-
+ 
   return resultadosData;
 }
 
@@ -274,7 +276,7 @@ function correlacionarResultados(meusJogos, apiGames, nomeMap = NOMES_EN_PT) {
       gols_fora: parseInt(jogo.away_score, 10),
     };
   }
-
+ 
   const resultados = {};
   for (const jogo of meusJogos) {
     const entry = indiceApi[`${jogo.casa}|${jogo.fora}`];
