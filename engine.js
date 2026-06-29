@@ -57,7 +57,7 @@ function calcularPontosMataM(palpite, resultado, regras) {
 
   let pts = 0, tipo = 'erro';
 
-  if (rc !== rf) {
+  if (pc !== pf) {
     // Vitória no tempo normal/prorrogação
     if (pc === rc && pf === rf) {
       pts = regras.vitoria_cravada; tipo = 'cravada';
@@ -71,7 +71,7 @@ function calcularPontosMataM(palpite, resultado, regras) {
     }
   } else {
     // Empate (decidido nos pênaltis)
-    if (pc === pf) {
+    if (rc === rf) {
       // Apostador apostou empate — pontua e DEVE indicar o vencedor dos pênaltis
       if (pc === rc && pf === rf) {
         pts = regras.empate_cravado; tipo = 'empate_cravado';
@@ -87,6 +87,8 @@ function calcularPontosMataM(palpite, resultado, regras) {
           pts += regras.penaltis_erro; // já é negativo no JSON
         }
       }
+    } else if (pc === rc || pf === rf) {
+      pts = regras.vitoria_gols; tipo = 'gols_parcial';
     }
     // Apostou vitória mas o jogo terminou empatado → erro (0 pts), sem bônus de pênaltis
   }
