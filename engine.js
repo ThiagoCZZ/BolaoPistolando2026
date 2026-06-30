@@ -272,18 +272,12 @@ function correlacionarResultados(meusJogos, apiGames, nomeMap = NOMES_EN_PT) {
       console.warn(`[correlacionar] Time sem mapeamento: "${jogo.home_team_name_en}" ou "${jogo.away_team_name_en}"`);
       continue;
     } 
-    
-    const penaltis_vencedor;
-    if (parseInt(jogo.home_penalty_score, 10) > parseInt(jogo.away_penalty_score, 10)) {
-		  penaltis_vencedor: nomeMap[jogo.home_team_name_en];
-	  } else {
-		  penaltis_vencedor: nomeMap[jogo.away_team_name_en];
-	  }
-    
+        
     indiceApi[`${casaPT}|${foraPT}`] = {
       gols_casa: parseInt(jogo.home_score, 10),
       gols_fora: parseInt(jogo.away_score, 10),
-      
+      gols_penalti_casa: parseInt(jogo.home_penalty_score, 10),
+	  gols_penalti_fora: parseInt(jogo.away_penalty_score, 10),
     };
   }
  
