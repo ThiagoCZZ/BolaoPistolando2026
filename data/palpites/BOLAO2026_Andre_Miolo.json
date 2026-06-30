@@ -302,7 +302,7 @@
                     "75":  {
                     		"gols_casa":  1,
                     		"gols_fora":  1,
-                    		"penaltis_vencedor": "Marrocos"
+                    		"penaltis_vencedor": "fora"
                     	},
                     "76":  {
                     		"gols_casa":  3,
@@ -337,7 +337,7 @@
                     "82":  {
                     		"gols_casa":  1,
                     		"gols_fora":  1,
-                    		"penaltis_vencedor": "Bélgica"
+                    		"penaltis_vencedor": "casa"
                     	},
                     "83":  {
                     		"gols_casa":  3,
@@ -367,7 +367,7 @@
                     "88":  {
                     		"gols_casa":  1,
                     		"gols_fora":  1,
-                    		"penaltis_vencedor": "Egito"
+                    		"penaltis_vencedor": "fora"
                     	}
 
                  },
