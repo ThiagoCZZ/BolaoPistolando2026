@@ -307,7 +307,7 @@
                     "76":  {
                     		"gols_casa":  2,
                     		"gols_fora":  2,
-                    		"penaltis_vencedor": "Brasil"
+                    		"penaltis_vencedor": "casa"
                     	},
                     "77":  {
                     		"gols_casa":  3,
@@ -317,7 +317,7 @@
                     "78":  {
                     		"gols_casa":  2,
                     		"gols_fora":  2,
-                       		"penaltis_vencedor": "Costa do Marfim"
+                       		"penaltis_vencedor": "casa"
                     	},
                     "79":  {
                     		"gols_casa":  2,
@@ -337,7 +337,7 @@
                     "82":  {
                     		"gols_casa":  1,
                     		"gols_fora":  1,
-                    		"penaltis_vencedor": "Bélgica"
+                    		"penaltis_vencedor": "casa"
                     	},
                     "83":  {
                     		"gols_casa":  2,
@@ -352,7 +352,7 @@
                     "85":  {
                     		"gols_casa":  1,
                     		"gols_fora":  1,
-                    		"penaltis_vencedor": "Argélia"
+                    		"penaltis_vencedor": "fora"
                     	},
                     "86":  {
                     		"gols_casa":  3,
