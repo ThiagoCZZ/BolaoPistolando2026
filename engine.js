@@ -78,13 +78,19 @@ function calcularPontosMataM(palpite, resultado, regras) {
       } else {
         pts = regras.empate_gols; tipo = 'empate_gols';
       }
+	  
+	  if (rpenc > rpenf) {
+		  penaltis_vencedor = 'casa';
+	  } else {
+		  penaltis_vencedor = 'fora';
+	  }
 
-      // Bônus/penalidade dos pênaltis (só para quem apostou empate)
-      if (resultado.penaltis_vencedor && palpite.penaltis_vencedor) {
+      // Bônus/desconto dos pênaltis (só para quem apostou empate)
+      if (penaltis_vencedor && palpite.penaltis_vencedor) {
         if (palpite.penaltis_vencedor === resultado.penaltis_vencedor) {
-          pts += regras.penaltis_acerto;
+          pts += regras.penaltis_acerto; tipo += ' + acerto vencedor';
         } else {
-          pts += regras.penaltis_erro; // já é negativo no JSON
+          pts += regras.penaltis_erro; tipo += ' - erro vencedor'; // já é negativo no JSON
         }
       }
     } else if (pc === rc || pf === rf) {
