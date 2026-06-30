@@ -125,11 +125,11 @@
   .modal-tipo {
     font-family:'IBM Plex Mono',monospace; font-size:.62rem; padding:.1rem .4rem; border-radius:2px; white-space:nowrap;
   }
-  .tipo-cravada, .tipo-empate_cravado { background:rgba(0,200,83,0.15); color:var(--verde); border:1px solid rgba(0,200,83,0.3); }
-  .tipo-cravada_invertida { background:rgba(213,0,0,0.15); color:var(--vermelho); border:1px solid rgba(213,0,0,0.3); }
+  .tipo-cravada, .tipo-empate_cravado, .tipo-empate_cravado_acerto_penal { background:rgba(0,200,83,0.15); color:var(--verde); border:1px solid rgba(0,200,83,0.3); }
+  .tipo-cravada_invertida, .tipo-empate_gols_erro_penal { background:rgba(213,0,0,0.15); color:var(--vermelho); border:1px solid rgba(213,0,0,0.3); }
   .tipo-vencedor { background:rgba(30,80,180,0.25); color:#90caf9; border:1px solid rgba(30,80,180,0.4); }
-  .tipo-gols_parcial, .tipo-empate_gols { background:rgba(255,214,0,0.1); color:var(--amarelo); border:1px solid rgba(255,214,0,0.25); }
-  .tipo-erro { color:var(--muted); }
+  .tipo-gols_parcial, .tipo-empate_gols, .tipo-empate_gols_acerto_penal { background:rgba(255,214,0,0.1); color:var(--amarelo); border:1px solid rgba(255,214,0,0.25); }
+  .tipo-erro, .tipo-empate_cravado_erro_penal { color:var(--muted); }
   .modal-sem-palpite {
     color:var(--muted); font-family:'IBM Plex Mono',monospace;
   }
@@ -261,6 +261,10 @@ const TIPO_LABEL = {
   vencedor: 'vencedor',
   gols_parcial: 'gols', empate_gols: 'gols',
   erro: 'erro',
+  empate_cravado_acerto_penal: 'cravada + vencedor',
+  empate_cravado_erro_penal: 'cravada + erro',
+  empate_gols_erro_penal: 'gols + erro',
+  empate_gols_acerto_penal: 'gols + vencedor',
 };
 
 function abrirPalpites(jogoId) {
