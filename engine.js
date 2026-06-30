@@ -87,7 +87,7 @@ function calcularPontosMataM(palpite, resultado, regras) {
 	  }
 
       // Bônus/desconto dos pênaltis (só para quem apostou empate)
-      if (penaltis_vencedor && palpite.penaltis_vencedor) {
+      if (penaltis_vencedor === palpite.penaltis_vencedor) {
         pts += regras.penaltis_acerto; tipo += ' + acerto vencedor';
       } else {
           pts += regras.penaltis_erro; tipo += ' - erro vencedor'; // já é negativo no JSON
