@@ -54,8 +54,9 @@ function calcularPontosGrupos(palpite, resultado) {
 function calcularPontosMataM(palpite, resultado, regras) {
   const pc = palpite.gols_casa, pf = palpite.gols_fora;
   const rc = resultado.gols_casa, rf = resultado.gols_fora;
+  const rpenc = resultado.gols_penalti_casa, rpenf = resultado.gols_penalti_fora;
 
-  let pts = 0, tipo = 'erro';
+  let pts = 0, tipo = 'erro', penaltis_vencedor;
 
   if (rc !== rf) {
     // Vitória no tempo normal/prorrogação
