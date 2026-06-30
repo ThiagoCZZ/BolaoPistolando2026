@@ -317,7 +317,7 @@
                     "78":  {
                     		"gols_casa":  1,
                     		"gols_fora":  1,
-                    		"penaltis_vencedor": "Costa do Marfim"
+                    		"penaltis_vencedor": "casa"
                     	},
                     "79":  {
                     		"gols_casa":  2,
@@ -332,12 +332,12 @@
                     "81":  {
                     		"gols_casa":  2,
                     		"gols_fora":  2,
-                    		"penaltis_vencedor": "Estados Unidos"
+                    		"penaltis_vencedor": "casa"
                     	},
                     "82":  {
                     		"gols_casa":  1,
                     		"gols_fora":  1,
-                    		"penaltis_vencedor": "Senegal"
+                    		"penaltis_vencedor": "fora"
                     	},
                     "83":  {
                     		"gols_casa":  0,
