@@ -189,7 +189,7 @@
     {"id": 91,  "fase": "oitavas", "data": "2026-07-05T17:00:00-03:00", "casa": "Brasil", "fora": "Noruega", "sede": "Nova Jersey",       "duplicado": false},
     {"id": 92,  "fase": "oitavas", "data": "2026-07-05T21:00:00-03:00", "casa": "México", "fora": "Inglaterra", "sede": "Cidade do México",  "duplicado": false},
     {"id": 93,  "fase": "oitavas", "data": "2026-07-06T15:00:00-03:00", "casa": "V83", "fora": "V84", "sede": "Dallas",            "duplicado": false},
-    {"id": 94,  "fase": "oitavas", "data": "2026-07-06T20:00:00-03:00", "casa": "V81", "fora": "V82", "sede": "Seattle",           "duplicado": false},
+    {"id": 94,  "fase": "oitavas", "data": "2026-07-06T20:00:00-03:00", "casa": "Estados Unidos", "fora": "Bélgica", "sede": "Seattle",           "duplicado": false},
     {"id": 95,  "fase": "oitavas", "data": "2026-07-07T13:00:00-03:00", "casa": "V86", "fora": "V88", "sede": "Atlanta",           "duplicado": false},
     {"id": 96,  "fase": "oitavas", "data": "2026-07-07T17:00:00-03:00", "casa": "V85", "fora": "V87", "sede": "Vancouver",         "duplicado": false},
     {"id": 97,  "fase": "quartas", "data": "2026-07-09T17:00:00-03:00", "casa": "V89", "fora": "V90", "sede": "Boston",            "duplicado": false},
