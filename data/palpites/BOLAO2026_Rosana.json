@@ -368,6 +368,16 @@
                     		"gols_casa":  0,
                     		"gols_fora":  2,
                     		"penaltis_vencedor": ""
+                    	},
+                    "89":  {
+                    		"gols_casa":  5,
+                    		"gols_fora":  4,
+                    		"penaltis_vencedor": ""
+                    	},
+                    "90":  {
+                    		"gols_casa":  2,
+                    		"gols_fora":  6,
+                    		"penaltis_vencedor": ""
                     	}
 
                  },
