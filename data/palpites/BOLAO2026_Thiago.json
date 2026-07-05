@@ -380,32 +380,32 @@
                     		"penaltis_vencedor": ""
                     	},
                     "91":  {
-                    		"gols_casa":  2,
-                    		"gols_fora":  1,
+                    		"gols_casa":  3,
+                    		"gols_fora":  0,
                     		"penaltis_vencedor": ""
                     	},
                     "92":  {
-                    		"gols_casa":  2,
-                    		"gols_fora":  2,
-                    		"penaltis_vencedor": "casa"
-                    	},
-                    "93":  {
                     		"gols_casa":  1,
                     		"gols_fora":  2,
+                    		"penaltis_vencedor": ""
+                    	},
+                    "93":  {
+                    		"gols_casa":  0,
+                    		"gols_fora":  1,
                     		"penaltis_vencedor": ""
                     	},
                     "94":  {
-                    		"gols_casa":  1,
-                    		"gols_fora":  3,
+                    		"gols_casa":  3,
+                    		"gols_fora":  0,
                     		"penaltis_vencedor": ""
                     	},
                     "95":  {
-                    		"gols_casa":  2,
+                    		"gols_casa":  4,
                     		"gols_fora":  0,
                     		"penaltis_vencedor": ""
                     	},
                     "96":  {
-                    		"gols_casa":  1,
+                    		"gols_casa":  0,
                     		"gols_fora":  2,
                     		"penaltis_vencedor": ""
                     	}
