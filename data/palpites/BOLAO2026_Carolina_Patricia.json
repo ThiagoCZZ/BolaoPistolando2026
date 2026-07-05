@@ -392,7 +392,7 @@
                     "93":  {
                     		"gols_casa":  1,
                     		"gols_fora":  2,
-                    		"penaltis_vencedor": "casa"
+                    		"penaltis_vencedor": ""
                     	},
                     "94":  {
                     		"gols_casa":  1,
