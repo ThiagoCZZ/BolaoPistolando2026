@@ -408,7 +408,27 @@
                     		"gols_casa":  4,
                     		"gols_fora":  3,
                     		"penaltis_vencedor": ""
-                    	}
+                    	}					,
+					"97":  {
+							"gols_casa":  4,
+							"gols_fora":  5,
+							"penaltis_vencedor": ""
+						},
+					"98":  {
+							"gols_casa":  5,
+							"gols_fora":  4,
+							"penaltis_vencedor": ""
+						},
+					"99":  {
+							"gols_casa":  5,
+							"gols_fora":  4,
+							"penaltis_vencedor": ""
+						},
+					"100":  {
+							"gols_casa":  5,
+							"gols_fora":  4,
+							"penaltis_vencedor": ""
+						}
 
                  },
     "extras":  {
