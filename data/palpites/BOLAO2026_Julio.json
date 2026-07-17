@@ -437,7 +437,7 @@
 					"102":  {
 							"gols_casa":  3,
 							"gols_fora":  1,
-							"penaltis_vencedor": "fora"
+							"penaltis_vencedor": ""
 						}
                  },
     "extras":  {
