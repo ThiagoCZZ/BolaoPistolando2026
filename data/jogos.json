@@ -4,46 +4,18 @@
       "label": "Fase de Grupos",
       "multiplicador": 1,
       "pontos": {
-        "cravada": 3,
-        "vencedor": 2,
-        "gols_parcial": 0.5,
-        "cravada_invertida": -3
+        "cravada": 6,
+        "vencedor": 3,
+        "gols_parcial": 1,
+        "cravada_invertida": -6
       }
     },
     "16avos": {
       "label": "16avos de Final",
       "multiplicador": 2,
       "pontos": {
-        "vitoria_cravada": 6,
-        "vitoria_vencedor": 4,
-        "vitoria_gols": 1,
-        "vitoria_invertida": -6,
-        "empate_cravado": 3,
-        "empate_gols": 1,
-        "penaltis_acerto": 1,
-        "penaltis_erro": -3
-      }
-    },
-    "oitavas": {
-      "label": "Oitavas de Final",
-      "multiplicador": 3,
-      "pontos": {
-        "vitoria_cravada": 9,
-        "vitoria_vencedor": 6,
-        "vitoria_gols": 1.5,
-        "vitoria_invertida": -9,
-        "empate_cravado": 4.5,
-        "empate_gols": 1.5,
-        "penaltis_acerto": 1.5,
-        "penaltis_erro": -4.5
-      }
-    },
-    "quartas": {
-      "label": "Quartas de Final",
-      "multiplicador": 4,
-      "pontos": {
         "vitoria_cravada": 12,
-        "vitoria_vencedor": 8,
+        "vitoria_vencedor": 6,
         "vitoria_gols": 2,
         "vitoria_invertida": -12,
         "empate_cravado": 6,
@@ -52,46 +24,74 @@
         "penaltis_erro": -6
       }
     },
-    "semi": {
-      "label": "Semifinal",
-      "multiplicador": 5,
-      "pontos": {
-        "vitoria_cravada": 15,
-        "vitoria_vencedor": 10,
-        "vitoria_gols": 2.5,
-        "vitoria_invertida": -15,
-        "empate_cravado": 7.5,
-        "empate_gols": 2.5,
-        "penaltis_acerto": 2.5,
-        "penaltis_erro": -7.5
-      }
-    },
-    "terceiro": {
-      "label": "3º Lugar",
-      "multiplicador": 5,
-      "pontos": {
-        "vitoria_cravada": 15,
-        "vitoria_vencedor": 10,
-        "vitoria_gols": 2.5,
-        "vitoria_invertida": -15,
-        "empate_cravado": 7.5,
-        "empate_gols": 2.5,
-        "penaltis_acerto": 2.5,
-        "penaltis_erro": -7.5
-      }
-    },
-    "final": {
-      "label": "Final",
-      "multiplicador": 6,
+    "oitavas": {
+      "label": "Oitavas de Final",
+      "multiplicador": 3,
       "pontos": {
         "vitoria_cravada": 18,
-        "vitoria_vencedor": 12,
+        "vitoria_vencedor": 9,
         "vitoria_gols": 3,
         "vitoria_invertida": -18,
         "empate_cravado": 9,
         "empate_gols": 3,
         "penaltis_acerto": 3,
         "penaltis_erro": -9
+      }
+    },
+    "quartas": {
+      "label": "Quartas de Final",
+      "multiplicador": 4,
+      "pontos": {
+        "vitoria_cravada": 24,
+        "vitoria_vencedor": 12,
+        "vitoria_gols": 4,
+        "vitoria_invertida": -24,
+        "empate_cravado": 12,
+        "empate_gols": 4,
+        "penaltis_acerto": 4,
+        "penaltis_erro": -12
+      }
+    },
+    "semi": {
+      "label": "Semifinal",
+      "multiplicador": 5,
+      "pontos": {
+        "vitoria_cravada": 30,
+        "vitoria_vencedor": 15,
+        "vitoria_gols": 5,
+        "vitoria_invertida": -30,
+        "empate_cravado": 15,
+        "empate_gols": 5,
+        "penaltis_acerto": 5,
+        "penaltis_erro": -15
+      }
+    },
+    "terceiro": {
+      "label": "3º Lugar",
+      "multiplicador": 5,
+      "pontos": {
+        "vitoria_cravada": 30,
+        "vitoria_vencedor": 15,
+        "vitoria_gols": 5,
+        "vitoria_invertida": -30,
+        "empate_cravado": 15,
+        "empate_gols": 5,
+        "penaltis_acerto": 5,
+        "penaltis_erro": -15
+      }
+    },
+    "final": {
+      "label": "Final",
+      "multiplicador": 6,
+      "pontos": {
+        "vitoria_cravada": 36,
+        "vitoria_vencedor": 18,
+        "vitoria_gols": 6,
+        "vitoria_invertida": -36,
+        "empate_cravado": 18,
+        "empate_gols": 6,
+        "penaltis_acerto": 6,
+        "penaltis_erro": -18
       }
     }
   },
